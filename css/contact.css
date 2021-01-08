@@ -1,0 +1,105 @@
+.ct {
+    margin-top: 3rem;
+}
+
+.form-control{
+    border-radius: 33px;
+}
+
+.send{
+    width: 100%;
+    border-radius: 33px;
+    padding: 1.5%;
+    
+}
+
+.nav-link:hover{
+    background-color:#ADEFD1FF;
+    }
+
+
+/* Footer */
+footer{
+    position: relative;
+    background-color:#ADEFD1FF;
+    color: black;
+    padding-top: 3rem;
+}
+
+footer h2{
+    color: #00203FFF;
+}
+footer .instagram div >img{
+    width:25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+
+footer .container{
+    /* padding: 2rem .9rem;
+    flex-grow: 1; */
+    font-size: 14px;
+}
+
+footer .container p{
+    font-family: var(--Lexend)
+}
+
+footer .form-element{
+    background:black;
+    display: inline-block;
+}
+
+footer .form-element input{
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: var(--Josephine);
+    font-size: 1rem!important;
+    width: 86%;
+}
+
+footer .form-element span{
+    background: #00203FFF;;
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+
+footer .follow div i{
+    padding: 0 1rem;
+    color:  #00203FFF
+}
+
+footer .rights{
+    
+    color: #3f4954;
+    font-size: 1px!important;
+}
+
+footer .rights h4 a{
+     color:  #00203FFF!important;
+    
+} 
+
+footer .move-up{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+footer .move-up span{
+    color: black;
+    cursor:pointer;
+    color:  #00203FFF;
+}
+
+
+.cl{
+    color: #00203FFF;
+    
+}
+
+.cl2{
+    color: #ADEFD1FF
+}

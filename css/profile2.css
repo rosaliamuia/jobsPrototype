@@ -1,0 +1,125 @@
+.site-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    padding: .4rem;
+}
+
+.posts{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 4rem;  
+}
+
+
+.site-content > .sidebar {
+    padding: 4rem;
+    width: 100%;
+    justify-content: space-between; 
+}
+
+.profile-button:focus {
+    background: #e8204e;
+    box-shadow: none;
+    border-radius: 33px;
+    border: none;
+    outline:none
+}
+
+.profile-button:active {
+    background: #e8204e;
+    box-shadow: none;
+    border-radius: 33px;
+    border: none;
+    outline:none
+}
+
+.profile-button{
+    background: #e8204e;
+    cursor: pointer;
+    border-radius: 33px;
+    border: none;
+    outline:none;
+    padding: 5px 10px;
+}
+
+.ct{
+    margin-top: 5rem;
+}
+
+  /* Footer */
+  footer{
+    position: relative;
+    background-color:#ADEFD1FF;
+    color: black;
+    padding-top: 3rem;
+}
+
+footer h2{
+    color: #00203FFF;
+}
+footer .instagram div >img{
+    width:25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+
+footer .container{
+    /* padding: 2rem .9rem;
+    flex-grow: 1; */
+    font-size: 14px;
+}
+
+footer .container p{
+    font-family: var(--Lexend)
+}
+
+footer .form-element{
+    background:black;
+    display: inline-block;
+}
+
+footer .form-element input{
+    padding: .5rem .7rem;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: var(--Josephine);
+    font-size: 1rem!important;
+    width: 86%;
+}
+
+footer .form-element span{
+    background: #00203FFF;;
+    padding: .5rem .7rem;
+    cursor: pointer;
+}
+
+footer .follow div i{
+    padding: 0 1rem;
+    color:  #00203FFF
+}
+
+footer .rights{
+    
+    color: #3f4954;
+    font-size: 1px!important;
+}
+
+footer .rights h4 a{
+     color:  #00203FFF!important;
+    
+} 
+
+footer .move-up{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+}
+
+footer .move-up span{
+    color: black;
+    cursor:pointer;
+    color:  #00203FFF;
+}

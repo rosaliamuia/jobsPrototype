@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs</title>
+    <!--------  Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    <!----------Font awesome css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+    <!-- Owl Carrousel-->
+    <link rel ="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel ="stylesheet" href="/css/owl.theme.default.min.css">
+
+    <!----------Custom css-->
+    <link rel="stylesheet" href="css/homestyle.css" />
+</head>
+<body>
+
+    <!-------------------------------------Navbar--------------------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top py-3">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>  
+            </ul>
+            <div class="col-md-4">
+            <a class="navbar-brand nav-logo" href="index.html">
+              DREAM JOBS
+              <!-- <img class="rounded-circle" style="height:100px; width:100px" src = "images/logoc2.png" alt="logo" > -->
+            </a>
+          </div>  
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="postJob.html">Post Job</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="browseJobs.html">Apply Jobs</a>
+              </li> 
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline" type="submit"><i class="fas fa-search"></i></button>
+              </form>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-user fa-lg"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+                  <li><a class="dropdown-item" href="login.html">Login</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+                  <li><a class="dropdown-item" href="login2.html">Employers</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    
+
+    
+    <!--------x----------------------------Navbar--------------------------------------------------------------x------>
+
+    
+    <!-------------------------------------Front-Image----------------------------------------------------------------->
+  
+
+        <div class="site-title ct">
+          <div class="slide slide-3">
+            <div class="explore">
+              <h1>Find Your Dream Job</h1>
+            </div>
+           <!-----------------------Search Section------------------------------>
+              <div class="container mx-auto" style= "width:1000px">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-3">
+                    <form class="d-flex justify-content-center">
+                      <input type="text" class="form-control search-slt3 bd" placeholder="Job Title, Keyword Or Phrase">
+                      <input type="text" class="form-control bd" placeholder="City">
+                      <select class="form-control search-slt bd" id="exampleFormControlSelect1">
+                        <option>Category</option>
+                        <option>Full Time</option>
+                        <option>Part Time</option>
+                        <option>Internship</option>
+                        <option>Contract</option>
+                        <option>Casual</option>
+                      </select>
+                      <button type="button" onclick="location.href='browseJobs.html'" class="wrn-btn2">Search <i class="fas fa-search"></i></button>
+                    </form>
+                  </div>
+                </div>
+                <!-- <button class="down">Explore All Jobs</button> -->
+              </div>     
+          </div>
+             <!------------x-------- Search Section--------------------x--------->      
+        </div>
+        
+
+              <!--------------------------------Find--------------------------->
+
+            
+
+      <!--------x----------------------------Front-Image-----------------------------------------------------------x------>
+
+      <!---------------------------------------------Popular Categories 1------------------------------------------------->
+      <div class="container-fluid padding mt-5">
+        <div class="row top text-left">
+            <div class="col-12">
+                <h2 class="cl">Popular Categories</h2>
+            </div>
+        </div>
+    </div>
+      
+      <div class="container mt-5">
+        <div class="row categories"> 
+            <div class="col-md-3">
+              <a href="jobs.html" style="color:black; text-decoration:none" > 
+              <div class="card card-category" style="width: 18rem pr-2; ">
+                <div class="card-body">
+                  <p class="card-text"> <img src="/images/svgs/budget.svg" style="height:100px; width: 150px; color: #ADEFD1FF;" ></i></p>
+                  <h5 class="card-title fw-bold">ACCOUNTING</h5>
+                </div>
+              </div>
+              </a>
+            </div>
+       
+
+          <div class="col-md-3">
+            <a href="jobs.html" style="color:black; text-decoration:none" >
+              <div class="card card-category" style="width: 18rem pr-2;">
+                <div class="card-body">
+                  <p class="card-text"> <img src="./images/engineering.svg" style="height:100px; width: 150px" ></i></p>
+                  <h5 class="card-title fw-bold">ENGINEERING</h5>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card card-category" style="width: 18rem pr-2;">
+              <div class="card-body">
+                <p class="card-text"> <img src="./images/coding.svg" style="height:100px; width: 150px" ></i></p>
+                <h5 class="card-title fw-bold">I.T</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card card-category" style="width: 18rem pr-2;">
+              <div class="card-body">
+                <p class="card-text"> <img src="./images/market-analysis.svg" style="height:100px; width: 150px" ></i></p>
+                <h5 class="card-title fw-bold">MARKETTING</h5>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+      <!-------------------x--------------------------Popular Categories 1---------------x-------------------------------->
+      
+      <!---------------------------------------------Popular Categories 2-----------------------------------------------> 
+      <div class="container mt-5">
+        <div class="row categories">
+          <div class="col-md-3">
+            <div class="card card-category" style="width: 18rem pr-2;">
+              <div class="card-body">
+                <p class="card-text"> <img src="./images/group.svg" style="height:100px; width: 150px" ></i></p>
+                <h5 class="card-title fw-bold">HUMAN RESOURCES</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card card-category" style="width: 18rem pr-2;">
+              <div class="card-body">
+                <p class="card-text"> <img src="./images/coaching.svg" style="height:100px; width: 150px" ></i></p>
+                <h5 class="card-title fw-bold">TEACHING</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card card-category" style="width: 18rem pr-2;">
+              <div class="card-body">
+                <p class="card-text"> <img src="./images/healthcare.svg" style="height:100px; width: 150px" ></i></p>
+                <h5 class="card-title fw-bold">HEALTH</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card card-category" style="width: 18rem pr-2;">
+              <div class="card-body">
+                <p class="card-text"> <img src="./images/volunteer.svg" style="height:100px; width: 150px" ></i></p>
+                <h5 class="card-title fw-bold">VOLUNTEER</h5>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- <div class=" cart ct mt-5">
+      <button>Categories</button>
+    </div> -->
+
+      <!-------------------x--------------------------Popular Categories 2---------------x-------------------------------->
+
+      <!-------------------x--------------------------Popular Cities---------------x-------------------------------->
+
+      <div class="container-fluid padding mt-5">
+        <div class="row top text-left">
+            <div class="col-12">
+                <h2>Featured Cities</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <section>
+      <div class="container-fluid mt-5">
+          <div id="works-carousel" class="owl-carousel owl-theme">
+            <a href="jobs.html" style="color:black; text-decoration:none" > 
+              <div class="card shadow-lg bg-grey-rounded" style="width: 18rem;">
+                  <img src="images/city/Kisumu.jpg" class="card-img-top cch" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title cl">Kisumu</h5>
+                  </div>
+              </div>
+              </a>
+              <div class="card shadow-lg bg-grey-rounded" style="width: 18rem;">
+                  <img src="images/city/mombasa.jpg" class="card-img-top cch" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title cl">Mombasa</h5>
+                  </div>
+              </div>
+              <div class="card shadow-lg bg-grey-rounded" style="width: 18rem;">
+                  <img src="images/city/nairobi.jpg" class="card-img-top cch" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title cl">Nairobi</h5>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+    <!-- <div class=" cart ct mt-5">
+      <button class="cart">All cities</button>
+    </div> -->
+
+      <!-------------------x--------------------------Popular Cities---------------x-------------------------------->
+
+      <!-------------------x--------------------------Recent Jobs---------------x--------------------------------> 
+      <div class="container-fluid padding mt-5">
+        <div class="row top text-left">
+            <div class="col-12">
+                <h2 class="cl">Featured Jobs</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8">
+          <a href="jobDetail.html" style="color:black; text-decoration:none" > 
+          <div class="card-body">
+            <div class="d-flex justify-content-between fx">
+                <img src="images/Company/cool2.jpg" class="rounded-circle" width="50px"; height="50px"><h5 class="fw-bold cl">Front End Developer</h5>
+                <i class="fas fa-heart fa-lg heart"></i>
+            </div>
+            <div class= "d-flex justify-content-between">
+                <p class="mb-1 cl"><i class="fas fa-search-location"></i>Gigiri, Nairobi</p>
+                <p class="mb-1 cl"><i class="fas fa-sticky-note fx2 pl-5"></i>Part Time</p>
+                <p class="mb-1 cl"><i class="fas fa-clock fx2"></i>4 weeks ago</p>
+            </div>
+          </div>
+          </a>
+          <hr>
+          <div class="card-body">
+            <div class="d-flex justify-content-between fx">
+                <img src="images/Company/cool2.jpg" class="rounded-circle" width="50px"; height="50px"><h5 class="fw-bold cl">Front End Developer</h5>
+                <i class="fas fa-heart fa-lg "></i>
+            </div>
+            <div class= "d-flex justify-content-between">
+                <p class="mb-1"><i class="fas fa-search-location"></i>Gigiri, Nairobi</p>
+                <p class="mb-1"><i class="fas fa-sticky-note fx2 pl-5"></i>Part Time</p>
+                <p class="mb-1 "><i class="fas fa-clock fx2"></i>4 weeks ago</p>
+            </div>
+          </div>
+          <hr>
+          <div class="card-body">
+            <div class="d-flex justify-content-between">
+                <img src="images/Company/cool2.jpg" class="rounded-circle" width="50px"; height="50px"><h5 class="fw-bold cl">Front End Developer</h5>
+                <i class="fas fa-heart fa-lg"></i>
+            </div>
+            <div class= "d-flex justify-content-between fx">
+                <p class="mb-1"><i class="fas fa-search-location"></i>Gigiri, Nairobi</p>
+                <p class="mb-1"><i class="fas fa-sticky-note fx2 pl-5"></i>Part Time</p>
+                <p class="mb-1 "><i class="fas fa-clock fx2"></i>4 weeks ago</p>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-3 mlr">
+          <div class="card" style="width: 18rem;">
+             <img src="./images/avat2.jpg" class="rounded-circle mx-auto d-block" style="height:100px; width:100px" alt="Cinque Terre">
+            <div class="card-body cl">
+              <p class="card-text text-center">I just got a job, I used this site.</p>
+              <h6 class=" text-center">FirstName SecondName</h6>
+              <h6 class="text-center">Location</h6>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+     
+
+      
+  
+      <!-------------------x--------------------------Recent Jobs---------------x--------------------------------> 
+
+        
+
+        <!--Footer-->
+        
+        <footer class="pt-4 border-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laboriosam repudiandae magnam neque eveniet autem officia similique sunt culpa adipisci.</p>
+              </div>
+              <div class="col-md-3">
+                <h2>NewsLetter</h2>
+                <p>Stay Up to Date with our latest</p>
+                <div class="form-element">
+                  <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>     
+              </div>
+              <div class="col-md-3 instagram">
+                <h2>Instagram</h2>
+                <div class="d-flex flex-row">
+                  <img src="images/instagram/thumb-card3.png" alt="insta1">
+                  <img src="images/instagram/thumb-card4.png" alt="insta1">
+                  <img src="images/instagram/thumb-card5.png" alt="insta1">
+                </div>
+                <div class="d-flex flex-row">
+                  <img src="images/instagram/thumb-card6.png" alt="insta1">
+                  <img src="images/instagram/thumb-card7.png" alt="insta1">
+                  <img src="images/instagram/thumb-card8.png" alt="insta1">
+                </div>
+              </div>
+              <div class="col-md-3 follow">
+                <h2>Follow Us</h2>
+                <p>Let us be Social.</p>
+                <div class="justify-content-around" >               
+                    <a href="https://twitter.com/explore" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="https://www.linkedin.com/in/rosalia-muia-6a87821a1/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>   
+                </div>
+              </div>
+              <div class="rights d-flex justify-content-center">
+                <h5>
+                  Copyright &copy;2020 All rights reserved || made by 
+                  <a href="https://github.com/rosaliamuia" target="_blank">rosaliamuia<i class="fab fa-github"></i></a>
+                </h5>
+              </div>
+              <!-- <div class="move-up">
+                <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+              </div> -->
+            </div>
+          </div>
+        </footer>
+        
+
+
+    <!-----------------------jquery----------------->
+    <script src="/js/jquery3.5.1.min.js"></script>
+    
+    
+    <!-------------------- Bootstrap jquery ---------------->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+       <!-- Custom Javascript file-->
+       <script src="/js/main.js"></script>
+
+        <!-- Owl Carrousel-->
+     <script src="/js/owl.carousel.min.js"></script>
+
+     <script>
+
+     </script>
+
+  </body>
+</html>
